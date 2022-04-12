@@ -1,0 +1,80 @@
+.footer{
+            background-color: darksalmon;
+            /* display: flex; */
+        }
+        .footer>div{
+            float : right;
+            font-size: 15px;
+            margin: 10px;
+        }
+        .footer .content{
+            text-align: center;
+            margin: 0%;
+            border: 1px solid white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 25%;
+            background-color: rgb(255, 106, 130);
+            box-shadow: 0px 1px 10px 1px black;
+            margin-bottom: 70px;
+
+        }
+        .c2{
+            margin-right: 10px;
+        }
+       
+        .header{
+            background-image: url('https://media.istockphoto.com/vectors/abstract-triangle-pattern-banner-design-vector-id1158980300?k=20&m=1158980300&s=612x612&w=0&h=1tY82ObO8T8-ucCe0XyjTRsGU0Du51UO5aMnGVe43qw=');
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bolder;
+            background-color: aquamarine;
+            font-size: 50px;
+            margin-bottom: 20px;
+            padding: 28px;
+        }
+        #c{color: rgb(255, 72, 0);}
+        #a{color: rgb(255, 110, 0);}
+        #r{color: rgb(255, 160, 0);}
+        #t{color: rgb(255, 180, 0);}
+        .flex-container{
+            display: flex;
+            background-color: darkseagreen;
+            border-bottom: 2px solid black;
+            margin-bottom: 5px;
+        }
+        .flex-container>div{
+            font-size: 15px;
+            margin: 10px;
+        }
+        img{
+            padding-left: 40px ;
+            width:40px;
+  		    height: 30px;
+        }
+        .content{
+            float: right;
+            padding-top: 10px;
+    	    padding-bottom: 10px;
+            width: 18%;
+            text-align: center;
+
+        }
+        .c1{
+            text-align: left;
+        }
+
+        .checkout{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKq3X6RPkPQvsKJSSdSj1CO2OTVvf_Sbe7uolao_b-lDobpJEJQVlPaXCC8k4zOCwKeiI&usqp=CAU');
+            position: fixed;
+            bottom: 0%;
+            width: 100%;
+            background-color: blanchedalmond;
+            font-size: 25px;
+            padding: 15px;
+            text-align: center;
+        }
+        .checkout>a{
+            text-decoration: none;
+            color: rgb(248, 225, 225);
+        }
